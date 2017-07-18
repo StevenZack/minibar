@@ -2,7 +2,7 @@
 minibar is a simple DFS example project written in Go . Our goal is to combine multiple storage devices into one , 
 and make them as easy-to-use as one storage device on the cloud.
 
-## Usage
+## Setup
 #### 1.Download the release <a href='http://github.com/stevenzack/minibar/releases/latest'>here</a>,and uncompress it<br>
 <pre><code>$tar xvf minibar_linux_amd64.tar.bz2</code></pre>
 #### 2.Setup a master server (who controls all the traffic , handle all request, but never store any files)<br>
@@ -19,4 +19,18 @@ $./minibar -p 8081 --max 100000000 --mserver localhost:8090 --dir ./v1 volume</c
 <b>--dir</b> directory for saving files<br>
 <b>volume</b> means this is a volume server
 ***
-#### 4.
+
+## 4.Usage<br>
+### Upload a file to master server
+<img src="https://github.com/StevenZack/minibar/blob/master/imgs/8.png">
+Return the fid , note it.
+
+### Download file from master server
+<img src="https://github.com/StevenZack/minibar/blob/master/imgs/5.png">
+Return the real link address of that file
+
+### Download from real link address
+<img src="https://github.com/StevenZack/minibar/blob/master/imgs/7.png">
+
+### Delete a file
+<img src="https://github.com/StevenZack/minibar/blob/master/imgs/6.png">
