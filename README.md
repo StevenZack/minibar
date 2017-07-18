@@ -29,8 +29,8 @@ Return the fid , note it.
 <img src="https://github.com/StevenZack/minibar/blob/master/imgs/5.png">
 Return the real link address of that file
 
-### Download from real link address
+### Download from real link address (on the volume server)
 <img src="https://github.com/StevenZack/minibar/blob/master/imgs/7.png">
 
-### Delete a file
+### Delete a file from master server
 <img src="https://github.com/StevenZack/minibar/blob/master/imgs/6.png">
